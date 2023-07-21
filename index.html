@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SPPU CGPA Calculator</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <!-- custom CSS for styling -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for Pacifico and Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="text-center mt-4 mb-4">
+    <h1 class="fancy-title">SPPU CGPA Calculator</h1>
+  </header>
+
+  <div class="container">
+    <div class="calculator-form">
+      <form>
+        <div class="mb-3">
+          <label for="fe_sgpa" class="form-label">First Year (FE) SGPA:</label>
+          <input type="number" class="form-control" id="fe_sgpa" step="0.01" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="se_sgpa" class="form-label">Second Year (SE) SGPA:</label>
+          <input type="number" class="form-control" id="se_sgpa" step="0.01" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="te_sgpa" class="form-label">Third Year (TE) SGPA:</label>
+          <input type="number" class="form-control" id="te_sgpa" step="0.01" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="be_sgpa" class="form-label">Final Year (BE) SGPA:</label>
+          <input type="number" class="form-control" id="be_sgpa" step="0.01" required>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="calculateCGPA()">Calculate CGPA</button>
+      </form>
+
+      <div class="result-message" id="result"></div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-4">
+    <p class="footer-message">Made with <span class="heart-emoji">&#10084;</span> by Vincent Simon</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
