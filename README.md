@@ -10,3 +10,5 @@ The SPPU CGPA Calculator is a web application that helps students of Savitribai 
 * Dynamic responsiveness for seamless usage on both desktop and mobile devices.
 * Congratulatory message with the overall CGPA displayed upon calculation.
 * The project is built using HTML, CSS (including Bootstrap for styling), and JavaScript. The code is designed to be easily hosted on GitHub, and the calculator provides an efficient and visually appealing way for SPPU students to calculate their CGPA over the course of their studies.
+
+Try it out: [SPPU CGPA Calculator](https://sppu-cgpa-calculator.netlify.app)
